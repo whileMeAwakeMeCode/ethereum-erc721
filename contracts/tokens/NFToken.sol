@@ -166,6 +166,7 @@ contract NFToken is
   {
     _owner = idToOwner[_tokenId];
     require(_owner != address(0));
+    return _owner;    
   }
 
   /**
